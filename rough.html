@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="notes.css">
+    <title>Form Validation</title>
+    <script src="./script.js"></script>
+</head>
+<body>
+    <div class="form">
+        <div class="cnt">
+            <h2>LOGIN PAGE</h2>
+            <form action="./messag.html" name="Validateform" method="post" onsubmit="return validationform()">
+                <label for="Name">First Name:</label>
+                <input type="text" name="firstname"><br>
+                <label for="Name">Last Name:</label>
+                <input type="text" name="lastname"><br>
+                <label for="City" id="ci">City:</label>
+                <input type="text" name="city"><br>
+                <label for="Address">Address:</label>
+                <input type="text" name="Address"><br>
+                <label for="Number" >Phone Number:</label>
+                <input type="text"name="Number"><br>
+                <button type="submit" id="btn">SUBMIT:</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
